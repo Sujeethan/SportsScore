@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:background="@drawable/bcgnd">
+
+    <TextView
+        android:id="@+id/series"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#ffc7c7c7"
+        android:textIsSelectable="true"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/matchnumber"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:text="Match Number "
+                android:layout_marginRight="5dp"
+                android:background="#ff3e83ff" />
+
+            <TextView
+                android:id="@+id/matchdate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:text="Match Date "
+                android:layout_marginRight="5dp"
+                android:background="#ff3e83ff" />
+
+            <TextView
+                android:id="@+id/matchvenue"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:text="Match Venue "
+                android:background="#ff3e83ff" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/match1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match1date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match1venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:textColor="#ffd1d1d1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/match2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match2date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match2venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:textColor="#ffd1d1d1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/match3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match3date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match3venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:textColor="#ffd1d1d1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/match4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match4date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match4venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:textColor="#ffd1d1d1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/match5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match5date"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffd1d1d1" />
+
+            <TextView
+                android:id="@+id/match5venue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textIsSelectable="true"
+                android:textSize="15dp"
+                android:textColor="#ffd1d1d1" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

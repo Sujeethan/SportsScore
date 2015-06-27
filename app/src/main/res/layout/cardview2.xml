@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="5dp"
+    android:layout_height="match_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff4173b2">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:layout_marginLeft="10px"
+            android:textSize="20dp"
+            android:layout_gravity="left|center"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="130px"
+            android:layout_height="150px"
+            android:layout_marginLeft="4px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="4px"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.09"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="5dp"
+            android:text="@+id/label"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/director"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:textSize="20dp"
+            android:layout_weight="0.20"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@+id/label"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:textSize="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="130px"
+            android:layout_height="150px"
+            android:layout_marginLeft="4px"
+            android:layout_marginRight="10px"
+            android:layout_marginTop="4px"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/menu_list"
+        android:src="@drawable/ic_menu_moreoverflow"
+        android:layout_marginRight="10dp"
+        android:layout_height="25dp"
+        android:layout_width="25dp"/>
+
+</LinearLayout>
+
+        <TextView
+            android:id="@+id/stars"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:text="@+id/label"
+            android:textSize="20dp"
+            android:layout_weight="0.71"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
